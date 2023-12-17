@@ -18,4 +18,8 @@ $ aws iam list-users -> тест
 7. $ python3.10 aws-EN-Polly.py | python3.10 gcp-UA-gtts.py -> запуск на aws та GCP
 8. $ pip3 install pydub -> часу виконання файлу MP3 
 9. $ python3.10 time-mp3.py -> виводиться час виконання в секундах заокруглених.
+# Video
+10. FFmpeg - це потужний інструмент командного рядка для обробки мультимедіа
+$ sudo apt install -y ffmpeg
+11. 
 
