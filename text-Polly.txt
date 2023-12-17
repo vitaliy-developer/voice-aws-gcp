@@ -1,4 +1,5 @@
-Hi,
-my dear friend Valentine.
-This is the solution I found, and I like it.
-But unfortunately, our native Ukrainian language is missing here.
+Hi, we will be using Amazon Polly.
+This is the Amazon Web Services cloud service,
+a subsidiary of Amazon.com,
+which converts text to voice.
+Enjoy using it, I hope you like it.
