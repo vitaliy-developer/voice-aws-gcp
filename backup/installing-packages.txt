@@ -1,0 +1,21 @@
+1. $ sudo timedatectl set-timezone Europe/Kiev -> изменить часовой пояс
+2. $ sudo apt install -y ntp -> NTP (обозначает протокол сетевого времени) используется для синхронизации системных часов клиентской системы с часами сервера
+3. $ sudo apt update -y, sudo apt-get install -y python3 python3-pip -> Встановлення необхідних пакетів
+4. Встановіть бібліотеку gTTS та пакет ffmpeg:
+$ pip3 install gtts
+$ sudo apt-get -y install ffmpeg
+5. Встановіть бібліотеки gTTS та boto3 (бібліотека для взаємодії з Amazon Web Services):
+$ pip3 install gtts boto3
+$ sudo apt-get install -y awscli
+$ aws --version
+$ aws configure
+	AWS Access Key ID [None]: AK******HSEZVT@BWIXX
+	AWS Secret Access Key [None]: HqTJ*****2QWcgDiVBdQL&FsegHkYtamgs/6FIAc
+	Default region name [None]: eu-central-1
+	Default output format [None]: 
+$ aws iam list-users -> тест
+6. $ scp -r voice-aws-gcp vitaliy@192.168.1.77:/home/vitaliy -> переніс проект на віддалений сервер
+7. $ python3.10 aws-EN-Polly.py | python3.10 gcp-UA-gtts.py -> запуск на aws та GCP
+8. $ pip3 install pydub -> часу виконання файлу MP3 
+9. $ python3.10 time-mp3.py -> виводиться час виконання в секундах заокруглених.
+

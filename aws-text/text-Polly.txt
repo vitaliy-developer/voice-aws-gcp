@@ -1,0 +1,5 @@
+Hi, we will be using Amazon Polly.
+This is the Amazon Web Services cloud service,
+a subsidiary of Amazon.com,
+which converts text to voice.
+Enjoy using it, I hope you like it.

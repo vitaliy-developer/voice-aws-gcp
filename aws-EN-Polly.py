@@ -5,8 +5,8 @@ import time
 
 start_time = time.time()  # Запам'ятовуємо час початку виконання скрипта
 
-input_file_path = 'text-Polly.txt'
-output_file_path = 'voice-text-Polly.mp3'
+input_file_path = 'aws-text/text-Polly.txt'
+output_file_path = 'aws-mp3/voice-text-Polly.mp3'
 
 # Зчитати текст з файлу
 with open(input_file_path, 'r') as file:
