@@ -21,5 +21,10 @@ $ aws iam list-users -> тест
 # Video
 10. FFmpeg - це потужний інструмент командного рядка для обробки мультимедіа
 $ sudo apt install -y ffmpeg
-11. 
+
+11.
+# Для створення субтитрів з аудіофайлу у форматі MP3 ви можете використовувати 
+# бібліотеку SpeechRecognition для розпізнавання мови і Pydub для роботи з аудіофайлами.
+$ pip3 install SpeechRecognition pydub
+12. 
 
